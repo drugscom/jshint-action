@@ -1,0 +1,10 @@
+name: 'JSHint Static Code Analysis'
+description: 'Run JSHint Static Code Analysis Tool for JavaScript'
+inputs:
+  path:
+    description: 'Where to look for JavaScript files'
+    required: false
+    default: '**/*.js'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
