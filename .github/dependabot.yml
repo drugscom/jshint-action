@@ -2,10 +2,11 @@
 version: 2
 
 updates:
-updates:
   - package-ecosystem: npm
     directory: /
     schedule:
       interval: daily
-    ignore:
-      - dependency-type: development
+    reviewers:
+      - drugscom/ops
+    allow:
+      - dependency-type: production
