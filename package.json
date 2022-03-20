@@ -24,7 +24,7 @@
   "homepage": "https://github.com/drugscom/jshint-action#readme",
   "dependencies": {
     "@actions/core": "^1.6.0",
-    "@actions/glob": "^0.2.0",
+    "@actions/glob": "^0.2.1",
     "@actions/utils": "git+https://github.com/drugscom/actions-utils.git",
     "jshint": "^2.13.4",
     "strip-json-comments": "^4.0.0"
