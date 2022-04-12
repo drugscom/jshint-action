@@ -35,9 +35,9 @@
     tunnel "0.0.6"
 
 "@actions/utils@git+https://github.com/drugscom/actions-utils.git":
-  version "1.1.0"
-  uid "34e8b1fd23709f9941ac712ba8bab273e637a55d"
-  resolved "git+https://github.com/drugscom/actions-utils.git#34e8b1fd23709f9941ac712ba8bab273e637a55d"
+  version "1.1.2"
+  uid "1717b815d81e23ce6362478e81a6fb286e8f47db"
+  resolved "git+https://github.com/drugscom/actions-utils.git#1717b815d81e23ce6362478e81a6fb286e8f47db"
   dependencies:
     "@actions/core" "^1.6.0"
     "@actions/github" "^5.0.1"
