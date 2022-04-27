@@ -36,10 +36,10 @@
 
 "@actions/utils@git+https://github.com/drugscom/actions-utils.git":
   version "1.1.2"
-  uid "1717b815d81e23ce6362478e81a6fb286e8f47db"
-  resolved "git+https://github.com/drugscom/actions-utils.git#1717b815d81e23ce6362478e81a6fb286e8f47db"
+  uid f6fd941bfd6282380c58a6f3fe282143f9636815
+  resolved "git+https://github.com/drugscom/actions-utils.git#f6fd941bfd6282380c58a6f3fe282143f9636815"
   dependencies:
-    "@actions/core" "^1.6.0"
+    "@actions/core" "^1.7.0"
     "@actions/github" "^5.0.1"
 
 "@babel/code-frame@7.12.11":
