@@ -2,19 +2,19 @@
 # yarn lockfile v1
 
 
-"@actions/core@^1.2.6", "@actions/core@^1.7.0", "@actions/core@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.8.0.tgz#5d98ff672b8ab73b718a939599c02f05c12755ad"
-  integrity sha512-XirM+Zo/PFlA+1h+i4bkfvagujta+LIM2AOSzPbt8JqXbbuxb1HTB+FqIyaKmue9yiCx/JIJY6pXsOl3+T8JGw==
+"@actions/core@^1.2.6", "@actions/core@^1.8.0", "@actions/core@^1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.8.1.tgz#3cdde366654b98764e63633a08dba6703131e274"
+  integrity sha512-LuFg2O/+rRrYxrdafnqH9mx6ADszKzQAhDuEhhMQIh47tsXzWkW4wXY5zvscqJ4KDywyJX0LA0pAESPLUjZXvw==
   dependencies:
-    "@actions/http-client" "^1.0.11"
+    "@actions/http-client" "^2.0.0"
 
-"@actions/github@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@actions/github/-/github-5.0.1.tgz#5fdbe371d9a592038668be95d12421361585fba1"
-  integrity sha512-JZGyPM9ektb8NVTTI/2gfJ9DL7Rk98tQ7OVyTlgTuaQroariRBsOnzjy0I2EarX4xUZpK88YyO503fhmjFdyAg==
+"@actions/github@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@actions/github/-/github-5.0.2.tgz#ae2ff4c42bab7bbc620f23c6e549c12f5919f531"
+  integrity sha512-+5a9gntqJhqn3bind2TT2xMp+7H6drlr5JPygyJvr6K8lSOs7qRF02doABmMbJKz+dy04wJVG5bBLCodPoTfaQ==
   dependencies:
-    "@actions/http-client" "^1.0.11"
+    "@actions/http-client" "^2.0.0"
     "@octokit/core" "^3.6.0"
     "@octokit/plugin-paginate-rest" "^2.17.0"
     "@octokit/plugin-rest-endpoint-methods" "^5.13.0"
@@ -27,20 +27,18 @@
     "@actions/core" "^1.2.6"
     minimatch "^3.0.4"
 
-"@actions/http-client@^1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@actions/http-client/-/http-client-1.0.11.tgz#c58b12e9aa8b159ee39e7dd6cbd0e91d905633c0"
-  integrity sha512-VRYHGQV1rqnROJqdMvGUbY/Kn8vriQe/F9HR2AlYHzmKuM/p3kjNuXhmdBfcVgsvRWTz5C5XW5xvndZrVBuAYg==
-  dependencies:
-    tunnel "0.0.6"
+"@actions/http-client@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@actions/http-client/-/http-client-2.0.0.tgz#518c4af1e7045769d3e2ad8c2ce7f8b05224a9b3"
+  integrity sha512-fm1+OPPey5ypgStT9K8zbBhICj4J4UV/TJIHDhuWlkb8KyJaAtjcZK184dTqul0dV0nPKX97FNtDXX20BTLXSA==
 
 "@actions/utils@git+https://github.com/drugscom/actions-utils.git":
   version "1.1.3"
-  uid "7296ad51b72bd046150932979a0eabfa2ce92655"
-  resolved "git+https://github.com/drugscom/actions-utils.git#7296ad51b72bd046150932979a0eabfa2ce92655"
+  uid "4ef5bc40e3076e604d37ab2cdb77f03960d2398a"
+  resolved "git+https://github.com/drugscom/actions-utils.git#4ef5bc40e3076e604d37ab2cdb77f03960d2398a"
   dependencies:
-    "@actions/core" "^1.8.0"
-    "@actions/github" "^5.0.1"
+    "@actions/core" "^1.8.1"
+    "@actions/github" "^5.0.2"
 
 "@babel/code-frame@7.12.11":
   version "7.12.11"
@@ -1803,11 +1801,6 @@ tsutils@^3.21.0:
   integrity sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==
   dependencies:
     tslib "^1.8.1"
-
-tunnel@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/tunnel/-/tunnel-0.0.6.tgz#72f1314b34a5b192db012324df2cc587ca47f92c"
-  integrity sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
